@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Conversor</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="line1">
+    <p class="Unit">ft</p>
+    <input type="number" id="footConv" onblur="footToMeterCalc()" value="5" placeholder="input in foot">
+    <p class="Unit">in</p>
+    <input type="number" id="inchConv" value="7" onblur="footToMeterCalc()" placeholder="input in inch">
+    <p class="Unit">m</p>
+    <input type="number" id="meterConv" onblur="meterToFootCalc()" placeholder="input in meter">
+    </div>
+  </div>
+  <script src="../heightConversorToMeter.js"></script>
+  <script src="../heightConversorToFoot.js"></script>
+</body>
+
+</html>
